@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.titleConservartor {
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+input {
+    border: solid 3px black;
+    padding: 5px 30px;
+    font-family: 'Courier Prime';
+    font-size: 20px;
+    text-align: center;
+}
+button {
+    border: none;
+    background-color: black;
+    padding: 5px 30px;
+    color: white;
+    font-family: 'Courier Prime';
+    font-size: 20px;
+    text-align: center;
+}
+
+
